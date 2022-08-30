@@ -1,8 +1,9 @@
-import 'sanitize.css';
+import 'water.css';
 import { StrictMode } from "react";
 import { createRoot } from "react-dom/client";
 
 import App from "./App";
+import Tags from './Tags'
 
 const rootElement = document.getElementById("root");
 const root = createRoot(rootElement);
@@ -10,5 +11,6 @@ const root = createRoot(rootElement);
 root.render(
   <StrictMode>
     <App />
+    <Tags />
   </StrictMode>
 );
